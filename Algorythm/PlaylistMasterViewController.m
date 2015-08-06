@@ -6,17 +6,17 @@
 //  Copyright (c) 2015 KatieExpatriated. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "PlaylistMasterViewController.h"
 
-@interface ViewController ()
+@interface PlaylistMasterViewController ()
 
 @end
 
-@implementation ViewController
+@implementation PlaylistMasterViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self.aButton setTitle:@"Press me!" forState:UIControlStateNormal];
 }
 
 - (void)didReceiveMemoryWarning {
