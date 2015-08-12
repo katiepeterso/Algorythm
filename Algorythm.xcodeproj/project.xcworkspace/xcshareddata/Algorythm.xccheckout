@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8320DFFD-552D-4B81-BEE7-AC950AA6F8B7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Algorythm</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C5CC6A9BA11AFB463DE8A8D963E1F08C46426040</key>
+		<string>https://github.com/katiepeterso/Algorythm.git</string>
+		<key>DC22E5519872F76C77D53A43655886FBD8E7A803</key>
+		<string>https://github.com/katiepeterso/lighthouse.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Algorythm.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C5CC6A9BA11AFB463DE8A8D963E1F08C46426040</key>
+		<string>../..</string>
+		<key>DC22E5519872F76C77D53A43655886FBD8E7A803</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/katiepeterso/Algorythm.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C5CC6A9BA11AFB463DE8A8D963E1F08C46426040</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DC22E5519872F76C77D53A43655886FBD8E7A803</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C5CC6A9BA11AFB463DE8A8D963E1F08C46426040</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Algorythm</string>
+		</dict>
+	</array>
+</dict>
+</plist>

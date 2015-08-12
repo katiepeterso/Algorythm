@@ -15,6 +15,8 @@
 		4284D8B91B73FF61007BF693 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4284D8B71B73FF61007BF693 /* LaunchScreen.xib */; };
 		4284D8C51B73FF61007BF693 /* AlgorythmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4284D8C41B73FF61007BF693 /* AlgorythmTests.m */; };
 		4284D8D01B74039E007BF693 /* PlaylistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4284D8CF1B74039E007BF693 /* PlaylistDetailViewController.m */; };
+		AA853C541B7B9D6500A3A95E /* MusicLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = AA853C531B7B9D6500A3A95E /* MusicLibrary.m */; };
+		AA853C571B7BA3AE00A3A95E /* Playlist.m in Sources */ = {isa = PBXBuildFile; fileRef = AA853C561B7BA3AE00A3A95E /* Playlist.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,10 @@
 		4284D8C41B73FF61007BF693 /* AlgorythmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorythmTests.m; sourceTree = "<group>"; };
 		4284D8CE1B74039E007BF693 /* PlaylistDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistDetailViewController.h; sourceTree = "<group>"; };
 		4284D8CF1B74039E007BF693 /* PlaylistDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistDetailViewController.m; sourceTree = "<group>"; };
+		AA853C521B7B9D6500A3A95E /* MusicLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicLibrary.h; sourceTree = "<group>"; };
+		AA853C531B7B9D6500A3A95E /* MusicLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicLibrary.m; sourceTree = "<group>"; };
+		AA853C551B7BA3AE00A3A95E /* Playlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Playlist.h; sourceTree = "<group>"; };
+		AA853C561B7BA3AE00A3A95E /* Playlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Playlist.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,10 @@
 				4284D8B01B73FF61007BF693 /* PlaylistMasterViewController.m */,
 				4284D8CE1B74039E007BF693 /* PlaylistDetailViewController.h */,
 				4284D8CF1B74039E007BF693 /* PlaylistDetailViewController.m */,
+				AA853C521B7B9D6500A3A95E /* MusicLibrary.h */,
+				AA853C531B7B9D6500A3A95E /* MusicLibrary.m */,
+				AA853C551B7BA3AE00A3A95E /* Playlist.h */,
+				AA853C561B7BA3AE00A3A95E /* Playlist.m */,
 				4284D8B21B73FF61007BF693 /* Main.storyboard */,
 				4284D8B51B73FF61007BF693 /* Images.xcassets */,
 				4284D8B71B73FF61007BF693 /* LaunchScreen.xib */,
@@ -225,9 +235,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4284D8B11B73FF61007BF693 /* PlaylistMasterViewController.m in Sources */,
+				AA853C571B7BA3AE00A3A95E /* Playlist.m in Sources */,
 				4284D8D01B74039E007BF693 /* PlaylistDetailViewController.m in Sources */,
 				4284D8AE1B73FF61007BF693 /* AppDelegate.m in Sources */,
 				4284D8AB1B73FF61007BF693 /* main.m in Sources */,
+				AA853C541B7B9D6500A3A95E /* MusicLibrary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +430,7 @@
 				4284D8CA1B73FF61007BF693 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4284D8CB1B73FF61007BF693 /* Build configuration list for PBXNativeTarget "AlgorythmTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				4284D8CD1B73FF61007BF693 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
