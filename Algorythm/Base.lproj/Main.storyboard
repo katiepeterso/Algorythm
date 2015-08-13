@@ -18,29 +18,72 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="XMO-3S-YLh">
-                                <rect key="frame" x="60" y="184" width="200" height="200"/>
-                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="2" y="66" width="157" height="165"/>
                                 <gestureRecognizers/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="biZ-fB-SfP"/>
-                                    <constraint firstAttribute="height" constant="200" id="pNZ-rJ-FxY"/>
-                                </constraints>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="hsq-tM-Fqj" appends="YES" id="UkL-Lu-GIH"/>
                                 </connections>
                             </imageView>
+                            <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="sjw-ww-dVO">
+                                <rect key="frame" x="161" y="66" width="157" height="165"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="FLa-0F-stl">
+                                <rect key="frame" x="2" y="233" width="157" height="165"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="TOk-C2-HK6">
+                                <rect key="frame" x="161" y="233" width="157" height="165"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="78d-UY-pHr">
+                                <rect key="frame" x="2" y="400" width="157" height="165"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="Nmg-lj-NHf">
+                                <rect key="frame" x="161" y="400" width="157" height="165"/>
+                                <gestureRecognizers/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.1764705882352941" green="0.18431372549019609" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="centerY" secondItem="XMO-3S-YLh" secondAttribute="centerY" id="EjW-mi-fFe"/>
-                            <constraint firstAttribute="centerX" secondItem="XMO-3S-YLh" secondAttribute="centerX" id="SvI-E5-Won"/>
-                            <constraint firstAttribute="centerY" secondItem="XMO-3S-YLh" secondAttribute="centerY" id="vBU-Ws-HQ8"/>
-                            <constraint firstAttribute="centerX" secondItem="XMO-3S-YLh" secondAttribute="centerX" id="viK-XE-Vrn"/>
+                            <constraint firstItem="sjw-ww-dVO" firstAttribute="leading" secondItem="XMO-3S-YLh" secondAttribute="trailing" constant="2" id="29k-h7-hBy"/>
+                            <constraint firstItem="XMO-3S-YLh" firstAttribute="width" secondItem="FLa-0F-stl" secondAttribute="width" id="3GL-kr-ciD"/>
+                            <constraint firstItem="sjw-ww-dVO" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="2" id="43e-0H-ZXy"/>
+                            <constraint firstAttribute="trailing" secondItem="Nmg-lj-NHf" secondAttribute="trailing" constant="2" id="480-dP-agd"/>
+                            <constraint firstAttribute="trailing" secondItem="sjw-ww-dVO" secondAttribute="trailing" constant="2" id="5ox-Nn-y8o"/>
+                            <constraint firstItem="XMO-3S-YLh" firstAttribute="height" secondItem="TOk-C2-HK6" secondAttribute="height" id="8us-5J-UfV"/>
+                            <constraint firstItem="XMO-3S-YLh" firstAttribute="height" secondItem="FLa-0F-stl" secondAttribute="height" id="BIA-BQ-dsg"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Nmg-lj-NHf" secondAttribute="bottom" constant="3" id="C57-QL-P8j"/>
+                            <constraint firstItem="78d-UY-pHr" firstAttribute="top" secondItem="FLa-0F-stl" secondAttribute="bottom" constant="2" id="CRf-ni-Sdh"/>
+                            <constraint firstItem="XMO-3S-YLh" firstAttribute="width" secondItem="sjw-ww-dVO" secondAttribute="width" id="DHO-71-DkC"/>
+                            <constraint firstItem="XMO-3S-YLh" firstAttribute="height" secondItem="78d-UY-pHr" secondAttribute="height" id="MQp-NT-Gyh"/>
+                            <constraint firstItem="XMO-3S-YLh" firstAttribute="height" secondItem="sjw-ww-dVO" secondAttribute="height" id="QzM-lY-Nph"/>
+                            <constraint firstItem="XMO-3S-YLh" firstAttribute="width" secondItem="Nmg-lj-NHf" secondAttribute="width" id="VB2-6b-ElR"/>
+                            <constraint firstItem="78d-UY-pHr" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="2" id="VQr-WG-BqG"/>
+                            <constraint firstItem="Nmg-lj-NHf" firstAttribute="leading" secondItem="78d-UY-pHr" secondAttribute="trailing" constant="2" id="VpW-hK-563"/>
+                            <constraint firstItem="FLa-0F-stl" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="2" id="XTW-Zq-yH5"/>
+                            <constraint firstItem="XMO-3S-YLh" firstAttribute="width" secondItem="TOk-C2-HK6" secondAttribute="width" id="Yrr-Os-QcY"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="78d-UY-pHr" secondAttribute="bottom" constant="3" id="b7P-AJ-fPG"/>
+                            <constraint firstItem="Nmg-lj-NHf" firstAttribute="top" secondItem="TOk-C2-HK6" secondAttribute="bottom" constant="2" id="c1f-6E-ssl"/>
+                            <constraint firstItem="XMO-3S-YLh" firstAttribute="width" secondItem="78d-UY-pHr" secondAttribute="width" id="gfE-hX-1BN"/>
+                            <constraint firstItem="XMO-3S-YLh" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="2" id="hW8-Eo-EmT"/>
+                            <constraint firstItem="FLa-0F-stl" firstAttribute="top" secondItem="XMO-3S-YLh" secondAttribute="bottom" constant="2" id="mmM-il-LkC"/>
+                            <constraint firstItem="TOk-C2-HK6" firstAttribute="top" secondItem="sjw-ww-dVO" secondAttribute="bottom" constant="2" id="opl-2j-abv"/>
+                            <constraint firstAttribute="trailing" secondItem="TOk-C2-HK6" secondAttribute="trailing" constant="2" id="tYV-XR-9hH"/>
+                            <constraint firstItem="XMO-3S-YLh" firstAttribute="height" secondItem="Nmg-lj-NHf" secondAttribute="height" id="urp-C4-qAs"/>
+                            <constraint firstItem="XMO-3S-YLh" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="2" id="wTa-YY-xCb"/>
+                            <constraint firstItem="TOk-C2-HK6" firstAttribute="leading" secondItem="FLa-0F-stl" secondAttribute="trailing" constant="2" id="z5F-eo-fcv"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Playlists" id="gGy-Sj-nZQ"/>
                     <connections>
-                        <outlet property="playlistImageView0" destination="XMO-3S-YLh" id="fAZ-pv-Hiq"/>
+                        <outletCollection property="playlistImageViews" destination="XMO-3S-YLh" id="bM1-WN-Uyj"/>
+                        <outletCollection property="playlistImageViews" destination="sjw-ww-dVO" id="b6d-iN-Lol"/>
+                        <outletCollection property="playlistImageViews" destination="FLa-0F-stl" id="QgZ-0d-4bv"/>
+                        <outletCollection property="playlistImageViews" destination="TOk-C2-HK6" id="zxD-jg-CaE"/>
+                        <outletCollection property="playlistImageViews" destination="78d-UY-pHr" id="1p6-xg-HVW"/>
+                        <outletCollection property="playlistImageViews" destination="Nmg-lj-NHf" id="gKV-vL-LRR"/>
                         <segue destination="kCi-sI-sg6" kind="push" identifier="showPlaylistDetail" id="pux-Nh-V4E"/>
                     </connections>
                 </viewController>
